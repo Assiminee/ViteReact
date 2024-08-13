@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+    @apply
+    w-full
+}
+
+/************************************** Login page ***************************************/
+/* Form container */
+.loginPageDiv {
+    @apply
+    bg-kwiklinDark
+    bg-cover
+    bg-no-repeat
+    bg-center
+    flex
+    items-center
+    justify-center
+    w-full
+    h-full
+}
+
+/* Form */
+#loginDiv {
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    bg-white
+    p-6
+    sm:p-10
+    md:p-10
+    lg:p-10
+    xl:p-10
+    rounded-2xl
+}
+
+#loginDiv h1 {
+    @apply
+    mb-2
+    text-2xl
+    font-bold
+    text-gray-900
+    md:text-2xl
+    lg:text-2xl
+}
+
+.formInputLabel {
+    @apply
+    block
+    mb-2
+    text-sm
+    font-medium
+    text-gray-900;
+}
+
+.formInput {
+    @apply
+    bg-gray-50
+    border
+    border-gray-300
+    text-black
+    text-sm
+    rounded-lg
+    focus:ring-blue-500
+    focus:border-blue-500
+    block w-full
+    p-2.5;
+}
+
+#remember {
+    @apply
+    w-4
+    h-4
+    border
+    border-gray-300
+    rounded
+    bg-gray-50
+    focus:ring-blue-300
+}
+
+#checkBoxLabel {
+    @apply
+    ms-2
+    text-sm
+    font-medium
+    text-gray-900
+}
+
+#signInBtn {
+    @apply
+    text-white
+    w-4/5
+    bg-[#278af5]
+    hover:bg-[#137ef3]
+    font-medium
+    rounded-lg
+    text-sm
+    px-5
+    py-2.5
+    mb-2
+    text-center
+}
+/************************************** Login page ***************************************/
+
+/************************************** Admin Page ***************************************/
+/* Side nav */
+.sideNav {
+    @apply
+    col-start-1
+    col-span-1
+    lg:col-span-3
+    row-start-1
+    row-span-full
+    h-full
+    bg-white
+}
+
+.sideNavDivContainer {
+    @apply
+    flex
+    flex-col
+    items-start
+    divide-y
+    divide-gray-600
+    w-full
+}
+
+/* Inner Div */
+.innerDiv {
+    @apply
+    bg-kwiklinLight
+    bg-cover
+    bg-no-repeat
+    bg-center
+    flex
+    flex-col
+    gap-5
+    row-start-2
+    row-span-full
+    col-start-2
+    lg:col-start-4
+    col-span-full
+    w-full
+    h-full
+    p-10
+}
+
+.cardDiv {
+    @apply
+    flex
+    flex-col
+    p-6
+    row-start-1
+    row-span-2
+    col-span-1
+    bg-white
+    rounded-2xl
+}
+
+/* header */
+header {
+    @apply
+    bg-white
+    w-full
+    h-fit
+    col-start-2
+    lg:col-start-4
+    col-span-full
+    row-start-1
+}
+
+.logo:hover {
+    filter: drop-shadow(0.5em 0.5em 0.5em black);
+}
+
+
+
+

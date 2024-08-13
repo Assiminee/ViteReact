@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <g id="SVGRepo_bgCarrier" stroke-width="0" transform="matrix(1, 0, 0, 1, 160.696553, 152.373799)"/>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 160.696553, 152.373799)"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M 16.389 21.295 C 15.621 22.062 14.379 22.062 13.613 21.295 L 3.8 11.481 C 3.033 10.716 3.033 9.472 3.8 8.706 C 4.566 7.939 5.808 7.939 6.575 8.706 L 15.001 17.132 L 23.427 8.706 C 24.192 7.939 25.434 7.939 26.202 8.706 C 26.967 9.472 26.967 10.716 26.202 11.481 L 16.389 21.295 Z" fill="#000000" style=""/>
+</svg>
